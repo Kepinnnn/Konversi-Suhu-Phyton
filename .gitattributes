@@ -1,2 +1,48 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+#latihan konversi satuan temperatur
+
+# program konversi celcius ke satuan laina
+
+print("\nPROGRAM KONVERSI TEMPERATUR ")
+
+celcius = float(input('Sihlakan masukkan sahu dalam celcius'))
+print('suhu adalah',celcius,"celcius")
+
+#reamur
+reamur = (4/5) * celcius
+print('suhu adalah',reamur,"reamur")
+
+#fahrenheit
+fahrenheit = ((9/5) * celcius) + 32
+print('suhu adalah',fahrenheit,"fahrenheit")
+
+#kelvin
+kelvin = celcius + 273
+print('suhu adalah' ,kelvin,"kelvin")
+
+print("-"*100)
+
+#latihan fahrenhait ke kelvin
+
+#program 1
+
+print("\nPROGRAM KONVERSI TEMPERATUR")
+
+fahrenheit = float(input('Sihlakan masukkan suhu dalam satuan fahrenheit'))
+print("suhu adalah",fahrenheit, 'fahrenheit')
+
+#kelvin
+kelvin = (5/9*(fahrenheit-32))+273
+print("suhu adalah",kelvin, 'kelvin')
+
+print("-"*100)
+
+#program 2
+
+print("\nPROGRAM KONVERSI TEMPERATUR")
+
+kelvin = float(input('Sihlakan masukkan suhu dalam satuan kelvin'))
+print("suhu adalah",kelvin, 'kelvin')
+
+#fahrenheit
+fahrenheit = (9/5*(kelvin-273))+32
+print("suhu adalah",fahrenheit, 'fahrenheit')
